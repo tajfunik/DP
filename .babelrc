@@ -1,0 +1,17 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    "transform-object-rest-spread",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "mock": "./src/mock",
+        "utils": "./src/utils",
+        "assets": "./src/assets",
+        "constants": "./src/constants",
+        "api": "./src/api",
+        "services": "./src/services"
+      }
+    }]
+  ]
+}

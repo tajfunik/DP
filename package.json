@@ -1,0 +1,27 @@
+{
+  "name": "hruska_dp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "disqus": "babel-node disqus.js"
+  },
+  "author": "Martin Hruška",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "excel-as-json": "^2.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "lodash": "^4.17.5",
+    "stopwords-sk": "^0.2.0"
+  }
+}
